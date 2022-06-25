@@ -27,6 +27,7 @@
               "src/assets"
             ],
             "styles": [
+              "node_modules/bootstrap/dist/css/bootstrap.min.css",
               "src/styles.css"
             ],
             "scripts": []
@@ -71,7 +72,8 @@
               "browserTarget": "jhub_m1b_Angular_floods_API:build:production"
             },
             "development": {
-              "browserTarget": "jhub_m1b_Angular_floods_API:build:development"
+              "browserTarget": "jhub_m1b_Angular_floods_API:build:development",
+              "proxyConfig": "./proxy.conf.json"
             }
           },
           "defaultConfiguration": "development"

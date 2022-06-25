@@ -1,0 +1,10 @@
+{
+    "/api": {
+      "target": "https://api.ffc-environment-agency.fgs.metoffice.gov.uk/api/public/counties",
+      "secure": true,
+      "changeOrigin": true,
+      "pathRewrite": {
+        "^/api": ""
+      }
+    }
+  }
